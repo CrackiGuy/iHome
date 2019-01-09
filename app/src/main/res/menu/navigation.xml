@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_temp"
+        android:icon="@drawable/ic_celsius"
+        android:title="@string/title_temp" />
+
+    <item
+        android:id="@+id/navigation_switch"
+        android:icon="@drawable/ic_lighting"
+        android:title="@string/title_switch" />
+
+    <item
+        android:id="@+id/navigation_water"
+        android:icon="@drawable/ic_tank"
+        android:title="@string/title_water" />
+
+    <item
+        android:id="@+id/navigation_door"
+        android:icon="@drawable/ic_lock_door"
+        android:title="@string/title_door" />
+
+</menu>

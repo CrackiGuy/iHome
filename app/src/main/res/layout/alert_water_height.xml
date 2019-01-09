@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/dig_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <TextView
+        android:id="@+id/dig_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:background="@color/primaryColor"/>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txt_height"
+        android:layout_below="@+id/dig_title"
+        android:theme="@style/textInput"
+        android:textColorHint="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/primaryColor">
+
+        <EditText
+            android:layout_margin="20dp"
+            android:id="@+id/input_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTint="@color/primaryColor"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_height"
+            android:hint="Tank's Height"
+            android:text=" "
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/primaryColor"
+            android:textColor="@color/primaryColor" />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@id/txt_height"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="50dp">
+        <TextView
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:text="Save"
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</RelativeLayout>

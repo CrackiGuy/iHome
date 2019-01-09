@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IHOME</string>
+
+    <string name="title_activity_home">Home</string>
+
+    <string name="title_temp">Sensors</string>
+    <string name="title_switch">Lighting</string>
+    <string name="title_water">Water Level</string>
+    <string name="title_door">Door &amp; Windows</string>
+
+</resources>

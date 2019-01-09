@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryColor</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:background">@color/primaryColor</item>
+    </style>
+
+    <style name="textInput">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/primaryColor</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/primaryColor</item>
+        <item name="colorControlNormal">@color/primaryColor</item>
+        <item name="colorControlActivated">@color/primaryColor</item>
+    </style>
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+            <item name="android:windowEnterAnimation">@anim/bounce</item>
+            <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>
