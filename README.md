@@ -1,4 +1,4 @@
-# IHome :iphone:
+# IHome (Home Automation IoT) :iphone:
 > This project was created with PHP,HTML5,CSS3,JQuery,JOSN and MYSQL.
 > IOT(Internet Of Things) Home Automation System
 # Features
