@@ -1,5 +1,6 @@
 # IHome (Home Automation IoT) :iphone:
 > This project was created with PHP,HTML5,CSS3,JQuery,JOSN and MYSQL.
+> Mobile is Java,Native Android.
 > IOT(Internet Of Things) Home Automation System
 # Features
 - Monitoring sensors status and values.
